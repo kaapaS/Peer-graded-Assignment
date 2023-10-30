@@ -1,0 +1,102 @@
+This is a Markdown cell
+Exercise 1:
+Peer-graded Assignment 1 (Introduction to Data Science)
+
+Exercise 2:
+Data Science Tools and Ecosystem
+
+Exercise 3:
+The following Notebook includes summary of Data Science Tools and Ecosystem
+
+Objectives:
+
+* List popular languages that Data Scientists use.
+* List commonly used libraries used by Data Scientists.
+* Comment on Data Science tools.
+
+Exercise 4:
+Some of the popular languages that Data Scientists use are:
+
+1. Python
+2. R
+3. SQL
+4. Julia
+5. Scala
+6. C/C++
+7. JavaScript
+8. Java
+
+Exercise 5:
+Some of the commonly used libraries used by Data Scientists include:
+
+1. TensorFlow.
+2. NumPy.
+3. SciPy.
+4. Pandas.
+5. Matplotlib.
+6. Keras.
+7. PyTorch.
+8. SciKit-Learn.
+9. NuPIC.
+10. PyBrain.
+
+Exercise 6 - Create a markdown cell with a table of Data Science tools. (3 pts)
+
+Data Science Tools:
+
+                            * Data Science Tools		
+* SAS. It is one of those data science tools which are specifically designed for statistical operation
+* Apache Spark
+* BigML
+
+
+Exercise 7 - Create a markdown cell introducing arithmetic expression examples. (1 pt)
+
+#
+#Below are a few examples of evaluating arithmetic expressions in Python
+# Arithmetic operations
+code = compile("9+8", "<string>", "eval")
+eval(code)
+17
+Volume of a sphere
+import math
+code2 = compile("4 / 3 * math.pi * math.pow(64, 3)", "<string>", "eval")
+eval(code2)
+1098066.2194435236
+
+
+Exercise 8 - Create a code cell to multiply and add numbers.(2 pts)
+
+This a simple arithmetic expression to mutiply, subtract then add integers
+
+ + 80
+(3*8-5) + 80
+99
+
+Exercise 9 - Create a code cell to convert minutes to hours. (2 pts)
+
+This will convert 200 minutes to hours by diving by 60
+
+days = 0
+hours = 0
+mins = 0
+​
+time = 3600
+#days = time / 1440
+leftover_minutes = time % 1440
+hours = leftover_minutes / 60
+#mins = time - (days*1440) - (hours*60)
+print(str(days) + " days, " + str(hours) + " hours, " + str(mins) +  " mins. ")
+​
+0 days, 12.0 hours, 0 mins. 
+
+
+Exercise 10 -Insert a markdown cell to list Objectives.
+
+Below the introduction cell created in Exercise 3, insert a new markdown cell to list the objectives that this notebook covered (i.e. some of the key takeaways from the course). 
+In this new cell start with an introductory line titled: Objectives: in bold font. Then using an unordered list (bullets) indicate 3 to 5 items covered in this notebook, such as List popular languages for Data Science.
+
+Exercise 11 - Create a markdown cell to indicate the Author’s name
+
+Author:
+Germano Costa
